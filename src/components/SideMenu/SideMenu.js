@@ -13,7 +13,8 @@ const sideMenu = props => {
                 </div>
             </div>
             <div className="contactSection">
-                <ContactBtn />
+                <ContactBtn type="git"/>
+                <ContactBtn type="linkedin"/>
                 <ContactBtn />
             </div>
       </div>
