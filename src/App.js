@@ -7,7 +7,13 @@ function App() {
       <main>principal</main>
       <header>header</header>
       <footer>cabeçalho</footer>
-      <nav>navegação</nav>
+      <nav>
+        navegação <br/>
+        navegação
+        <div className="item">
+
+        </div>
+      </nav>
     </div>
   );
 }

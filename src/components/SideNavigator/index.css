@@ -1,0 +1,16 @@
+.sideNavigator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profileImage {
+    width:200px;
+    height:200px;
+    background-color: white;
+}
+
+.ContactButton {
+    background-color: tomato;
+}
