@@ -8,10 +8,16 @@ function App() {
       <header>header</header>
       <footer>cabeçalho</footer>
       <nav>
-        navegação <br/>
-        navegação
-        <div className="item">
+        <div className = "sideMenu">
+          <div className = "ImageSection">
+            <div className="item">
 
+            </div>
+          </div>
+          <div className="ContactSection">
+            navegação <br/>
+            navegação 
+          </div>
         </div>
       </nav>
     </div>
