@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import SideMenu from './components/SideMenu'
+import SideMenu from './components/SideMenu/SideMenu'
 
 function App() {
   return (

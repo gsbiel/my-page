@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import './index.css'
+import './SideMenu.css';
+import './ContactBtn/ContactBtn';
+import ContactBtn from './ContactBtn/ContactBtn';
 
 const sideMenu = props => {
     return (
@@ -11,11 +13,11 @@ const sideMenu = props => {
                 </div>
             </div>
             <div className="contactSection">
-                navegação <br/>
-                navegação 
+                <ContactBtn />
+                <ContactBtn />
             </div>
       </div>
-    )
-}
+    );
+};
 
 export default sideMenu;
