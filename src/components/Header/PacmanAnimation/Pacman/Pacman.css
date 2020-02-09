@@ -2,6 +2,7 @@
     position: absolute;
     z-index: 99;
     top: 50%;
+    animation: moveForward 5s linear infinite;
 }
 
 .pacman::before, .pacman::after {
@@ -34,5 +35,14 @@
 @keyframes mouthBottom {
     50% {
         transform: rotate(-42deg);
+    }
+}
+
+@keyframes moveForward {
+    0% {
+        left: -20%;
+    }
+    100% {
+        left: 100%;
     }
 }
