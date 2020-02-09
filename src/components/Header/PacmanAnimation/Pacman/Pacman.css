@@ -2,7 +2,7 @@
     position: absolute;
     z-index: 99;
     top: 50%;
-    animation: moveForward 5s linear infinite;
+    animation: moveForward 3s linear infinite;
 }
 
 .pacman::before, .pacman::after {

@@ -6,10 +6,10 @@
     height: 70px;
     width: 60px;
     margin-top: -35px;
-    background-color: red;
+    background-color: blue;
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
-    animation: moveGhostForward 6s linear infinite, blinking 0.4s linear infinite;
+    animation: moveGhostForward 5s linear infinite, blinking 0.4s linear infinite;
 }
 
 .ghost::before, .ghost::after {
@@ -78,7 +78,7 @@
 
 @keyframes blinking {
     50% {
-        background: hotpink;
+        background: white;
     }
 }
 
