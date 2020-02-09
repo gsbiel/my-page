@@ -4,9 +4,7 @@ import './Ghost.css';
 
 const ghost = props => {
     return (
-        <div className = "ghost">
-            <p>Ghost!</p>
-        </div>
+        <div className = "ghost"></div>
     );
 };
 

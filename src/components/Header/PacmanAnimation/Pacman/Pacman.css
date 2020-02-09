@@ -1,0 +1,38 @@
+.pacman {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+}
+
+.pacman::before, .pacman::after {
+    display:block;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: solid 30px yellow; 
+    margin-top: -30px;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    animation: mouthTop 0.5s ease infinite;
+}
+
+.pacman::after {
+    border-color: yellow;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    animation: mouthBottom 0.5s ease infinite;
+}
+
+@keyframes mouthTop {
+    50% {
+        transform: rotate(42deg);
+    }
+}
+
+@keyframes mouthBottom {
+    50% {
+        transform: rotate(-42deg);
+    }
+}

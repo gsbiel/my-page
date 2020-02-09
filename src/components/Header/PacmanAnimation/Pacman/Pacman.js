@@ -4,9 +4,7 @@ import './Pacman.css';
 
 const pacman = props => {
     return(
-        <div className = "pacman">
-            <p>Pacman...</p>
-        </div>
+        <div className = "pacman"></div>
     );
 };
 
