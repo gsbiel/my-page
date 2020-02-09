@@ -12,6 +12,7 @@
     padding-left:10px;
 }
 
-.contactBtn :hover {
+.contactBtn:hover {
     background-color: darkcyan;
+    cursor: pointer;
 }

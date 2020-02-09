@@ -3,8 +3,13 @@ header{
   background-color: aquamarine;
 }
 
-nav{
+nav {
   grid-area: navegacao;
+  background-color: bisque;
+}
+
+aside{
+  grid-area: menuLateral;
   background-color: skyblue;
 }
 
@@ -24,8 +29,8 @@ footer{
   grid-template-columns:3fr 9fr;
   grid-template-rows:70px 1fr 50px;
   grid-template-areas:
-  'cabecalho cabecalho'
-  'navegacao conteudo'
+  'cabecalho navegacao'
+  'menuLateral conteudo'
   'rodape rodape';
 }
 
