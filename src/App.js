@@ -16,6 +16,7 @@ import {
 
 import SideMenu from './components/SideMenu/SideMenu';
 import NavMenu from './components/NavMenu/NavMenu';
+import Header from './components/Header/Header';
 
 // Criando minha biblioteca de icones para serem usadas em qualquer componente sem necessitar de imports.
 library.add(faGithub, faLinkedin, faCoffee, faEnvelope);
@@ -27,7 +28,9 @@ function App() {
       <nav>
           <NavMenu />
       </nav>
-      <header>header</header>
+      <header>
+          <Header />
+      </header>
       <footer>cabeçalho</footer>
       <aside>
           <SideMenu />
