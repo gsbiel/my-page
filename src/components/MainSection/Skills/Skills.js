@@ -8,6 +8,11 @@ const skills = props => {
     return (
         <div className = "skills">
             <ItemSkill />
+            <ItemSkill />
+            <ItemSkill />
+            <ItemSkill />
+            <ItemSkill />
+            <ItemSkill />
         </div>
     );
 };

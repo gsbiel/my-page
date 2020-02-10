@@ -1,0 +1,43 @@
+.itemSkill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto; 
+    width: 30%;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+.titleSkill {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.infoSkill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.imageSkill {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-bottom-left-radius: 10px;
+}
+
+.levelSkill {
+    width: 100%;
+    padding: 10px;
+}
+
+.levelBar {
+    width:auto;
+    border-top: 1px dashed black
+}

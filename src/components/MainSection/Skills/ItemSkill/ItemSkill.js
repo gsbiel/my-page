@@ -5,7 +5,18 @@ import './ItemSkill.css';
 const itemSkill = props => {
     return(
         <div className = "itemSkill">
-            <p>Esse e um item de skill</p>
+
+            <div className = "titleSkill">
+                <p>React</p>
+            </div>
+            
+            <div className = "infoSkill">
+                <div className = "imageSkill"></div>
+                <div className = "levelSkill">
+                    <div className = "levelBar"></div>
+                </div>
+            </div>
+
         </div>
     );
 };
